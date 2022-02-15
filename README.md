@@ -8,7 +8,7 @@ The Project include three folders as below:
 ## One-dimensional model 
 ### PC-lite 
 
-![\Large \sum_{j\neq i}w_{ij}](https://latex.codecogs.com/svg.latex?\Large&space;\sum_{j\neq i}w_{ij}) 
+![\Large w](https://latex.codecogs.com/svg.latex?\Large&space;w) 
 
 
 
