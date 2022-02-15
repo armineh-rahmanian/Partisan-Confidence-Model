@@ -53,7 +53,7 @@ d_i(\vec{x}_i(t), \vec{x}_j(t)) \leq  \hat{h}_i(\theta)  ~~\text{if}~~sgn(\vec{x
 where $`\hat{h}_i:[0, \pi] \to [0,1]`$ is a non-increasing discounting function and $`\theta`$ is the angle between $`\vec{x}_i`$ and $`\vec{x}_j`$ given as below. 
 
 ```math
-\theta = \frac{\vec{x}_i \vec{x}_j}{\|\vec{x}_i\|_2 \|\vec{x}_j\|_2}
+\theta = \frac{\vec{x}_i.\vec{x}_j}{\|\vec{x}_i\|_2\times\|\vec{x}_j\|_2}
 ```
 
 
