@@ -8,7 +8,21 @@ The Project include three folders as below:
 ## One-dimensional model 
 ### PC-lite 
 
-$`x_{i}\left(t + 1\right) - x_i(t) = \sum_{j\neq i} w_{ij}(t) |x_j(t)| \left(\sgn(x_j(t) - x_i(t)\right)`$
+<!DOCTYPE html>
+<html>
+<head>
+<title>MathJax TeX Test Page</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+</head>
+<body>
+$$x_{i}\left(t + 1\right) - x_i(t) = \sum_{j\neq i} w_{ij}(t) |x_j(t)| \left(\sgn(x_j(t) - x_i(t)\right).$$
+</body>
+</html>
+
+
 
 
 
