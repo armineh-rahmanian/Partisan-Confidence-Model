@@ -14,7 +14,7 @@ x_i(t+1) - x_i(t) = \sum_{j\neq i} w_{ij}(t) |x_j(t)| \left( sgn(x_j(t)) - x_i(t
 
 ### PC
 ```math
-x_i(t+1) - x_i(t) = \sum_{j\neq i} w_{ij}(t) d_i(x_i(t), x_j(t)})|x_j(t)| \left( sgn(x_j(t)) - x_i(t) \right) 
+x_i(t+1) - x_i(t) = \sum_{j\neq i} w_{ij}(t) d_i(x_i(t), x_j(t))|x_j(t)| \left( sgn(x_j(t)) - x_i(t) \right) 
 ```
 
 ## multi-dimensional model 
