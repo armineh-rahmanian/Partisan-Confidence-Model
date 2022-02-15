@@ -8,7 +8,7 @@ The Project include three folders as below:
 ## One-dimensional model 
 ### PC-lite 
 ```math
-$x_{i}\left(t + 1\right) - x_i(t) = \sum_{j\neq i} w_{ij}(t) |x_j(t)| \left(\sgn(x_j(t) - x_i(t)\right)$
+x_{i}\left(t + 1\right) - x_i(t) = \sum_{j\neq i} w_{ij}(t) |x_j(t)| \left(\sgn(x_j(t) - x_i(t)\right)
 ```
 
 
