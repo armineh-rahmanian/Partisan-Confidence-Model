@@ -8,7 +8,7 @@ The Project include three folders as below:
 ## One-dimensional model 
 ### PC-lite 
 
-![\Large w_{ij}(t)|x_j(t)|(sgn(x_j(t))](https://latex.codecogs.com/svg.latex?\Large&space;w_{ij}(t)|x_j(t)|(sgn(x_j(t))) 
+![\Large w_{ij}(t)|x_j(t)|(\sgn(x_j(t))](https://latex.codecogs.com/svg.latex?\Large&space;w_{ij}(t)|x_j(t)|(\sgn(x_j(t))) 
 
 
 
