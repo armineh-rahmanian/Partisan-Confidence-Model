@@ -50,7 +50,7 @@ and
 ```math
 d_i(\vec{x}_i(t), \vec{x}_j(t)) \leq  \hat{h}_i(\theta)  ~~\text{if}~~sgn(\vec{x}_i(t)) \neq sgn(\vec{x}_j(t)) 
 ```
-where $`\hat{theta}_i:[-1,1]^2 \to [0,1]`$ is a non-increasing discounting function and $\theta$ is the angle between $`\vec{x}_i`$ and $`\vec{x}_j`$ given as below. 
+where $`\hat{h}_i:[0, \pi] \to [0,1]`$ is a non-increasing discounting function and $`\theta`$ is the angle between $`\vec{x}_i`$ and $`\vec{x}_j`$ given as below. 
 
 ```math
 \theta = \frac{\vec{x}_i \vec{x}_j}{\|\vec{x}_i\|_2 \|\vec{x}_j\|_2}
