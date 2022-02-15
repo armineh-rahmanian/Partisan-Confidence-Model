@@ -27,7 +27,7 @@ and
 ```math
 d_i(x_i(t), x_j(t)) \leq  \hat{d}_i(|x_i(t)|)  ~~\text{if}~~sgn(x_i(t)) = sgn(x_j(t)) 
 ```
-where $`hat{d}_i:[-1,1] \to [0,1]`$ is a non-increasing discounting function.  
+where $`\hat{d}_i:[-1,1] \to [0,1]`$ is a non-increasing discounting function.  
 
 ## multi-dimensional model 
 Suppose that there $`\mathcal{M} = \{1, ..., m\}`$ topics for discussion. Take $`x^{(k)}_i(t)\in [-1,1]`$ as the opinion of agent $`i`$ at time $`t`$ about topic $`k \in \mathcal{M}`$. Opinion evolution according to the MDPC-lite and MDPC model is given below. 
@@ -50,7 +50,7 @@ and
 ```math
 d_i(\vec{x}_i(t), \vec{x}_j(t)) \leq  \hat{h}_i(\theta)  ~~\text{if}~~sgn(\vec{x}_i(t)) \neq sgn(\vec{x}_j(t)) 
 ```
-where $`hat{theta}_i:[-1,1]^2 \to [0,1]`$ is a non-increasing discounting function and $\theta$ is the angle between $`\vec{x}_i`$ and $`\vec{x}_j`$ given as below. 
+where $`\hat{theta}_i:[-1,1]^2 \to [0,1]`$ is a non-increasing discounting function and $\theta$ is the angle between $`\vec{x}_i`$ and $`\vec{x}_j`$ given as below. 
 
 ```math
 \theta = \frac{\vec{x}_i \vec{x}_j}{\|\vec{x}_i\|_2 \|\vec{x}_j\|_2}
