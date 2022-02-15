@@ -7,6 +7,6 @@ The Project include three folders as below:
 
 ## One-dimensional model 
 ### PC-lite 
-<img src="https://render.githubusercontent.com/render/math?math=x_{i}(t+1) - x_i(t) = \sum_{j\neq i} w_{ij}(t) |x_j(t)| \left(\sgn(x_j(t) - x_i(t)\right)">
+<img src="https://render.githubusercontent.com/render/math?math=x_{i}(t+\!1) - x_i(t) = \sum_{j\neq i} w_{ij}(t) |x_j(t)| \left(\sgn(x_j(t) - x_i(t)\right)">
 
 
