@@ -8,7 +8,7 @@ The Project include three folders as below:
 ## One-dimensional model 
 ### PC-lite 
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x_{i}\left(t + 1\right) - x_i(t) = \sum_{j\neq i} w_{ij}(t) |x_j(t)| \left(\sgn(x_j(t) - x_i(t)\right)" />
+<img src="https://latex.codecogs.com/svg.image?x_i(t&space;&plus;&space;1)&space;-&space;x_i(t)&space;=&space;\sum_{j\neq&space;i}&space;w_{ij}(t)&space;|x_j(t)|&space;\left(\sgn(x_j(t)&space;-&space;x_i(t)\right)" title="x_i(t + 1) - x_i(t) = \sum_{j\neq i} w_{ij}(t) |x_j(t)| \left(\sgn(x_j(t) - x_i(t)\right)" />
 
 
 
