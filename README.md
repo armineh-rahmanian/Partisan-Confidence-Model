@@ -6,7 +6,7 @@ The Project include three folders as below:
 3. Two-dimensional: Two jupyter notebooks for simulating the Partisan confidenc-lite multi-dimensional (MDPC-lite) and Partisan confidenc multi-dimensional (MDPC) model 
 
 ## One-dimensional model 
-Suppose that $x_i(t)\in [-1,1]$ stands for the opinion of agent $i$ at time $t$ about a specific and fixed subject. Opinion evolution according to the PC-lite and PC model is given below. 
+Suppose that $`x_i(t)\in [-1,1]`$ stands for the opinion of agent $`i`$ at time $`t`$ about a specific and fixed subject. Opinion evolution according to the PC-lite and PC model is given below. 
 ### PC-lite: 
 
 
@@ -20,7 +20,7 @@ x_i(t+1) - x_i(t) = \sum_{j\neq i} w_{ij}(t) d_i(x_i(t), x_j(t))|x_j(t)| \left( 
 ```
 
 ## multi-dimensional model 
-Suppose that there $\mathcal{M} = \{1, \Idots, m}$ topics for discussion. Take $x^{(k)}_i(t)\in [-1,1]$ as the opinion of agent $i$ at time $t$ about topic $k \in \mathcal{M}$. Opinion evolution according to the MDPC-lite and MDPC model is given below. 
+Suppose that there $`\mathcal{M} = \{1, \Idots, m}`$ topics for discussion. Take $`x^{(k)}_i(t)\in [-1,1]`$ as the opinion of agent $`i`$ at time $`t`$ about topic $`k \in \mathcal{M}`$. Opinion evolution according to the MDPC-lite and MDPC model is given below. 
 ### MDPC-lite: $m \ geq 2$
 
 ```math
