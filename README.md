@@ -3,12 +3,12 @@ Simulation files for the *Partisan Confidence* model of opinion evolution writte
 The Project include three folders as below: 
 1. Corollaries: A jupyter notebook for verifying collaries. 
 2. One-dimensional: Two jupyter notebooks for simulating the Partisan confidenc-lite (PC-lite) and Partisan confidence (PC) model.
-- PC-lite_case_1.ipybn: There bubbles and some are considered outside the bubbles. 
-- PC-lite_case_2.ipybn: Two bubbles are considered in the population. 
-- PC_case_2.ipybn: Two bubbles are considered in the population. 
+- PC-lite_case_1.ipynb: There bubbles and some are considered outside the bubbles. 
+- PC-lite_case_2.ipynb: Two bubbles are considered in the population. 
+- PC_case_2.ipynb: Two bubbles are considered in the population. 
 4. Two-dimensional: Two jupyter notebooks for simulating the Partisan confidenc-lite multi-dimensional (MDPC-lite) and Partisan confidenc multi-dimensional (MDPC) model 
-- MDPC-lite_case_2.ipybn: Two bubbles are considered in the population. 
-- MDPC_case_2.ipybn: Two bubbles are considered in the population. 
+- MDPC-lite_case_2.ipynb: Two bubbles are considered in the population. 
+- MDPC_case_2.ipynb: Two bubbles are considered in the population. 
 ## One-dimensional model 
 Suppose that $`x_i(t)\in [-1,1]`$ stands for the opinion of agent $`i`$ at time $`t`$ about a specific and fixed subject. Opinion evolution according to the PC-lite and PC model is given below. 
 ### PC-lite: 
