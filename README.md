@@ -3,7 +3,7 @@ Simulation files for the *Partisan Confidence* model of opinion evolution writte
 The Project include three folders as below: 
 1. Corollaries: A jupyter notebook for verifying collaries. 
 2. One-dimensional: Two jupyter notebooks for simulating the Partisan confidenc-lite (PC-lite) and Partisan confidence (PC) model.
-- PC-lite_case_1.ipynb: There bubbles and some are considered outside the bubbles. 
+- PC-lite_case_1.ipynb: Three bubbles and some are considered outside the bubbles. 
 - PC-lite_case_2.ipynb: Two bubbles are considered in the population. 
 - PC_case_2.ipynb: Two bubbles are considered in the population. 
 4. Two-dimensional: Two jupyter notebooks for simulating the Partisan confidenc-lite multi-dimensional (MDPC-lite) and Partisan confidenc multi-dimensional (MDPC) model 
