@@ -8,7 +8,9 @@ The Project include three folders as below:
 ## One-dimensional model 
 ### PC-lite 
 
-![\Large w_{ij}(t)|x_j(t)|(sign(x_j(t))](https://latex.codecogs.com/svg.latex?\Large&space;w_{ij}(t)|x_j(t)|(sign(x_j(t))) 
+```math
+x_i(t+1) - x_i(t) = \sum_{j\neq i} w_{ij}(t) |x_j(t)| \left( sgn(x_j(t)) - x_i(t) \right) 
+```
 
 
 
