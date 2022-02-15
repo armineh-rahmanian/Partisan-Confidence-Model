@@ -18,12 +18,13 @@ x_i(t+1) - x_i(t) = \sum_{j\neq i} w_{ij}(t) |x_j(t)| \left( sgn(x_j(t)) - x_i(t
 ```math
 x_i(t+1) - x_i(t) = \sum_{j\neq i} w_{ij}(t) d_i(x_i(t), x_j(t))|x_j(t)| \left( sgn(x_j(t)) - x_i(t) \right) 
 ```
-where $`d_i: [-1,1]^2 \to [0,1]`$ is the discount function accounting for confirmation bias in the model described as below. 
+where $`d_i: [-1,1]^2 \to [0,1]`$ is the discount function accounting for confirmation bias in the model described as below. If two individuals share the same general belief 
 
 ```math
-d_i(x_i(t), x_j(t)) = 1 ~~\text{if}~~sgn(x_i(t)) = sgn(x_j(t)) 
+d_i(x_i(t), x_j(t)) = 1 ~~\text{if}~~sgn(x_i(t)) = sgn(x_j(t)), 
 ```
-and 
+and if two individuals share different general beliefs
+
 ```math
 d_i(x_i(t), x_j(t)) \leq  \hat{d}_i(|x_i(t)|)  ~~\text{if}~~sgn(x_i(t)) = sgn(x_j(t)) 
 ```
@@ -41,14 +42,15 @@ x^{(k)}_i(t+1) - x^{(k)}_i(t) = \sum_{j\neq i} w_{ij}(t) |x^{(k)}_j(t)| \left( s
 ```math
 x^{(k)}_i(t+1) - x^{(k)}_i(t) = \sum_{j\neq i} w_{ij}(t) d_i(\vec{x}_i(t), \vec{x_j(t)})|x^{(k)}_j(t)| \left( sgn(x^{(k)}_j(t)) - x^{(k)}_i(t) \right) 
 ```
-where $`d_i: [-1,1]^2 \to [0,1]`$ is the discount function accounting for confirmation bias in the model described as below. 
+where $`d_i: [-1,1]^2 \to [0,1]`$ is the discount function accounting for confirmation bias in the model described as below. If two individuals share the same general belief 
 
 ```math
-d_i(\vec{x}_i(t), \vec{x}_j(t)) = 1 ~~\text{if}~~sgn(\vec{x}_i(t)) = sgn(\vec{x}_j(t)) 
+d_i(\vec{x}_i(t), \vec{x}_j(t)) = 1 ~~\text{if}~~sgn(\vec{x}_i(t)) = sgn(\vec{x}_j(t)), 
 ```
-and 
+and if two individuals share different general beliefs
+
 ```math
-d_i(\vec{x}_i(t), \vec{x}_j(t)) \leq  \hat{h}_i(\theta)  ~~\text{if}~~sgn(\vec{x}_i(t)) \neq sgn(\vec{x}_j(t)) 
+d_i(\vec{x}_i(t), \vec{x}_j(t)) \leq  \hat{h}_i(\theta)  ~~\text{if}~~sgn(\vec{x}_i(t)) \neq sgn(\vec{x}_j(t)). 
 ```
 where $`\hat{h}_i:[0, \pi] \to [0,1]`$ is a non-increasing discounting function and $`\theta`$ is the angle between $`\vec{x}_i`$ and $`\vec{x}_j`$ given as below. 
 
