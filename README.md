@@ -45,12 +45,12 @@ x^{(k)}_i(t+1) - x^{(k)}_i(t) = \sum_{j\neq i} w_{ij}(t) d_i(\vec{x}_i(t), \vec{
 where $`d_i: [-1,1]^2 \to [0,1]`$ is the discount function accounting for confirmation bias in the model described as below. If two individuals share the same general belief 
 
 ```math
-d_i(\vec{x}_i(t), \vec{x}_j(t)) = 1 ~~\text{if}~~sgn(\vec{x}_i(t)) = sgn(\vec{x}_j(t)), 
+d_i(\vec{x}_i(t), \vec{x}_j(t)) = 1 ~~\text{if}~~sgn(\vec{x}_i(t)) = sgn(\vec{x}_j(t))~~\text{or}~~\vec{x}_i(t) = \mathbf{0}~~\text{or}~~\vec{x}_j(t) = \mathbf{0}, 
 ```
 and if two individuals share different general beliefs
 
 ```math
-d_i(\vec{x}_i(t), \vec{x}_j(t)) \leq  \hat{h}_i(\theta)  ~~\text{if}~~sgn(\vec{x}_i(t)) \neq sgn(\vec{x}_j(t)). 
+d_i(\vec{x}_i(t), \vec{x}_j(t)) \leq  \hat{h}_i(\theta)  ~~\text{if}~~sgn(\vec{x}_i(t)) \neq sgn(\vec{x}_j(t))~~\text{and}~~\vec{x}_i(t) \neq \mathbf{0}~~\text{and}~~\vec{x}_j(t) \neq \mathbf{0}. 
 ```
 where $`\hat{h}_i:[0, \pi] \to [0,1]`$ is a non-increasing discounting function and $`\theta`$ is the angle between $`\vec{x}_i`$ and $`\vec{x}_j`$ given as below. 
 
