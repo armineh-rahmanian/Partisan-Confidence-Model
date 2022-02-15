@@ -8,7 +8,7 @@ The Project include three folders as below:
 ## One-dimensional model 
 ### PC-lite 
 
-![\Large x_i(t+1) ](https://latex.codecogs.com/svg.latex?\Large&space;x_i(t+1) ) 
+![\Large x_i(t+1) - x_i(t) = ](https://latex.codecogs.com/svg.latex?\Large&space;x_i(t+1) -x_i(t) = ) 
 
 
 
