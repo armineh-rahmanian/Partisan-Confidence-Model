@@ -5,3 +5,8 @@ The Project include three folders as below:
 2. One-dimensional: Two jupyter notebooks for simulating the Partisan confidenc-lite (PC-lite) and Partisan confidence (PC) model 
 3. Two-dimensional: Two jupyter notebooks for simulating the Partisan confidenc-lite multi-dimensional (MDPC-lite) and Partisan confidenc multi-dimensional (MDPC) model 
 
+## One-dimensional model 
+### PC-lite 
+
+$$x_i(t+1) - x_i(t) = \sum_{j\neq i} w_{ij}(t) |x_j(t)| \left(\sgn(x_j(t) - x_i(t)\right)$$
+
