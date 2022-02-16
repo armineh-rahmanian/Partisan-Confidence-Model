@@ -9,7 +9,7 @@ The Project include three folders as below:
 4. Two-dimensional: Two jupyter notebooks for simulating the Partisan confidenc-lite multi-dimensional (MDPC-lite) and Partisan confidenc multi-dimensional (MDPC) model 
 - MDPC-lite_case_2.ipynb: Two bubbles and two topics are considered. 
 - MDPC_case_2.ipynb: Two bubbles and two topics are considered. 
-## One-dimensional model 
+## One-dimensional Model 
 Suppose that $`x_i(t)\in [-1,1]`$ stands for the opinion of agent $`i`$ at time $`t`$ about a specific and fixed subject. Opinion evolution according to the PC-lite and PC model is given below. 
 ### PC-lite: 
 
@@ -34,7 +34,7 @@ d_i(x_i(t), x_j(t)) \leq  \hat{d}_i(|x_i(t)|)  ~~\text{if}~~sgn(x_i(t)) = sgn(x_
 ```
 where $`\hat{d}_i:[-1,1] \to [0,1]`$ is a non-increasing discounting function.  
 
-## multi-dimensional model 
+## Multi-dimensional Model 
 Suppose that there are $`\mathcal{M} = \{1, ..., m\}`$ topics for discussion. Take $`x^{(k)}_i(t)\in [-1,1]`$ as the opinion of agent $`i`$ at time $`t`$ about topic $`k \in \mathcal{M}`$. Opinion evolution according to the MDPC-lite and MDPC model is given below. 
 ### MDPC-lite: $`m \geq 2`$
 
